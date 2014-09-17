@@ -20,6 +20,11 @@ syntax on
 colorscheme desert 	"set the colorscheme
 nmap <F2> :NERDTreeToggle
 :set tabstop=4
+:set softtabstop=4
+:set shiftwidth=4
+:set autoindent
+:set number
+:set backspace=2
 set guifont=Consolas:h14:cANSI
 
 
