@@ -11,6 +11,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'JavaScript-syntax'
 Bundle 'Better-Javascript-Indentation'
 Bundle 'jQuery'
+Bundle 'https://github.com/leafgarland/typescript-vim.git'
 "..................................
 " non github repos
 " Bundle 'git://git.wincent.com/command-t.git'
@@ -26,5 +27,7 @@ nmap <F2> :NERDTreeToggle
 :set number
 :set backspace=2
 set guifont=Consolas:h14:cANSI
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
 
 
