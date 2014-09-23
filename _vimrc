@@ -13,6 +13,9 @@ Bundle 'scrooloose/nerdtree'
 "Auto add close the {, [, ( and so on
 Bundle 'AutoClose' 
 
+"Auto complete for general purpose
+Bundle 'AutoComplPop'
+
 "Comments Tools
 "n\cc, comment nlines for the following line, include this current line
 "n\cu, uncomment nlines for the following line, include this current line
