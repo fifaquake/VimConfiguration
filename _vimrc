@@ -24,6 +24,8 @@ Bundle 'The-NERD-Commenter'
 "Ctrl+f to switch from folder mode to file mode.
 Bundle 'ctrlp.vim'
 
+Bundle 'elzr/vim-json'
+
 "support code snippets
 Bundle 'snipmate'
 "Javascript Plugins starts from here
@@ -31,6 +33,7 @@ Bundle 'JavaScript-syntax'
 Bundle 'Better-Javascript-Indentation'
 Bundle 'jQuery'
 Bundle 'https://github.com/leafgarland/typescript-vim.git'
+Bundle 'moll/vim-node'
 
 filetype plugin indent on
 syntax on
